@@ -45,7 +45,7 @@ const addItemToArray = prod => {
             </div>
             <div>
                 <p class="price">R$ <span>${prod.price}</span></p>
-                <button class="btn" onclick="addToCart(${prod.id})">
+                <button class="buttons" onclick="addToCart(${prod.id})">
                     <span class="iconify-inline" data-icon="mdi:cart-plus"></span> Adicionar
                 </button>
             </div>

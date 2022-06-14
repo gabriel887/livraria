@@ -18,12 +18,12 @@ html {
 }
 
 ::-moz-selection {
-    background: #a1ff0a;
+    background: #962644;
     color: #FFFFFF;
 }
 
 ::selection {
-    background: #a1ff0a;
+    background: #962644;
     color: #FFFFFF;
 }
 
@@ -35,13 +35,13 @@ h1 {
 }
 
 h1 span {
-    color: #a1ff0a;
+    color: #962644;
 }
 
 h3 {
     font-weight: 800;
     font-size: 2.8rem;
-    color: #333;
+    color: #fff;
     margin-bottom: 35px;
     text-align: center;
 }
@@ -87,13 +87,14 @@ a {
     text-decoration: none;
 }
 
-.btn {
-    background: #a1ff0a;
-    color: #a5512a;
+.buttons {
+    background: #962644;
+    color: #fff;
     font-size: 1rem;
     font-weight: 700;
     padding: 14px 28px;
     border-radius: 3px;
+    border: 1px solid #fff;
 }
 
 .btnControls {
@@ -117,11 +118,14 @@ a {
 }
 
 .btnControls:hover,
-.btn:hover {
+.buttons:hover {
     -webkit-filter: brightness(0.8);
     filter: brightness(0.8);
     -webkit-transition: .5s ease;
     transition: .5s ease;
+    background: #4C0014;
+    color: #fff;
+    border: 0;
 }
 
 .navbar {
@@ -129,7 +133,7 @@ a {
     top: 0;
     left: 0;
     z-index: 2;
-    background: #a5512a;
+    background: #541A00;
     width: 100%;
     padding: 20px 0;
 }
@@ -202,7 +206,7 @@ a {
 }
 
 .navbar .content .items a:hover {
-    color: #a1ff0a;
+    color: #962644;
     -webkit-transition: .5s ease;
     transition: .5s ease;
 }
@@ -219,7 +223,7 @@ a {
 }
 
 .navbar .content .btnMobile:hover {
-    color: #a1ff0a;
+    color: #962644;
     -webkit-transition: .5s ease;
     transition: .5s ease;
 }
@@ -238,7 +242,7 @@ a {
 
 .navbar .icons #cart:hover,
 .navbar .icons a:hover {
-    color: #a1ff0a;
+    color: #962644;
     -webkit-transition: .5s ease;
     transition: .5s ease;
 }
@@ -252,7 +256,7 @@ a {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: 2px solid #a5512a;
+    border: 2px solid #541A00;
 }
 
 .navbar .itemsMobile {
@@ -274,7 +278,7 @@ a {
     -ms-flex-direction: column;
     flex-direction: column;
     gap: 55px 0;
-    background: #a5512a;
+    background: #541A00;
     width: 65%;
     height: 100vh;
     -webkit-box-shadow: 0 0 150px 0 rgba(0, 0, 0, 0.15);
@@ -307,13 +311,13 @@ a {
 
 .navbar .itemsMobile a:hover,
 .navbar .itemsMobile div:hover {
-    color: #a1ff0a;
+    color: #962644;
     -webkit-transition: .5s ease;
     transition: .5s ease;
 }
 
 .banner {
-    background: #a5512a;
+    background: #541A00;
     width: 100%;
     height: 100vh;
     background-image: url("../img/livroBonito.jpg");
@@ -378,7 +382,7 @@ a {
 }
 
 .banner .bannerContent .social a:hover {
-    color: #a1ff0a;
+    color: #ffffff;
     -webkit-transition: .5s ease;
     transition: .5s ease;
 }
@@ -445,7 +449,7 @@ a {
 }
 
 .items .cardItems .iconify {
-    color: #a5512a;
+    color: #ffffff;
     font-size: 5.5rem;
 }
 
@@ -488,20 +492,20 @@ a {
     border: none;
     background: transparent;
     font-weight: 600;
-    color: #949494;
+    color: #fff;
     font-size: 1rem;
     cursor: pointer;
 }
 
 .linksMenu button:hover,
 .linksMenu a:hover {
-    color: #a1ff0a;
+    color: #962644;
     -webkit-transition: .5s ease;
     transition: .5s ease;
 }
 
 .linksMenu .active {
-    color: #a5512a !important;
+    color: #730B27 !important;
     font-weight: 700;
     position: relative;
     line-height: 150%;
@@ -510,7 +514,7 @@ a {
 .linksMenu .active:after {
     content: '';
     position: absolute;
-    border-bottom: 3px solid #a5512a;
+    border-bottom: 3px solid #541A00;
     border-radius: 2px;
     width: 18px;
     height: 2px;
@@ -595,22 +599,22 @@ a {
     color: #333;
 }
 
-.cardsMenu .card .btn {
-    border: 1px solid #a5512a;
-    color: #a5512a;
+.cardsMenu .card .buttons {
+    border: 1px solid #541A00;
+    color: #541A00 !important;
     background: transparent;
     cursor: pointer;
     width: 100%;
     bottom: 0;
 }
 
-.cardsMenu .card .btn .iconify-inline {
+.cardsMenu .card .buttons .iconify-inline {
     margin-right: 3px;
 }
 
-.cardsMenu .card .btn:hover {
-    background: #a5512a;
-    color: #FFFFFF;
+.cardsMenu .card .buttons:hover {
+    background: #541A00;
+    color: #FFFFFF !important;
 }
 
 .map {
@@ -621,7 +625,7 @@ a {
 }
 
 .footerBottom {
-    background: #a5512a;
+    background: #541A00;
 }
 
 .footerBottom .content {
@@ -672,7 +676,7 @@ a {
 }
 
 .footerBottom .content .social a:hover {
-    color: #a1ff0a;
+    color: #962644;
     -webkit-transition: .5s ease;
     transition: .5s ease;
 }
@@ -765,14 +769,4 @@ a {
     text-align: center;
     height: 100%;
     padding: 6px 0px;
-}
-
-.imagemCarousel {
-    width: 300px;
-    height: 600px;
-}
-
-.carouselCaption {
-    background-color: rgba(51, 51, 51, 0.315);
-    width: 100%;
 }
